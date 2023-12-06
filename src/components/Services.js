@@ -6,6 +6,7 @@ const Services = () => {
         <section className="section services" id="services">
       <Title title='Our' subTitle='Services'/>
      <Service {...Service}/>
+     
     </section>
     )
 }

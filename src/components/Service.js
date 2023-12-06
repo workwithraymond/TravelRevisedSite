@@ -1,6 +1,9 @@
 import {service} from '../data'
 
+
 const Service = () => {
+
+
     return(
         <div className="section-center services-center">
         {service.map((services) => {
@@ -13,6 +16,7 @@ const Service = () => {
             <p className="service-text">
              {text}
             </p>
+           
           </div>
         </article>
           )
